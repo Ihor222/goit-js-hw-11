@@ -7,9 +7,10 @@
     <title>Image Search App</title>
 
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="simplelightbox/dist/simple-lightbox.min.css" />
+    <link rel="stylesheet" href="izitoast/dist/css/iziToast.min.css" />
   </head>
   <body>
-    <!-- Шапка з формою -->
     <header class="header">
       <div class="container">
         <form class="form">
@@ -25,12 +26,12 @@
           <button type="submit">Search</button>
         </form>
 
-        <!-- Індикація завантаження -->
-        <div class="loader is-hidden"></div>
+        <!-- Лоадер для css-loader -->
+        <span class="loader is-hidden"></span>
       </div>
     </header>
 
-    <!-- Основна частина з галереєю -->
+    <!-- Основна секція галереї -->
     <main>
       <section class="gallery-section">
         <div class="container">
@@ -45,7 +46,6 @@
       </div>
     </footer>
 
-    <!-- Основний скрипт -->
     <script type="module" src="./main.js"></script>
   </body>
 </html>
